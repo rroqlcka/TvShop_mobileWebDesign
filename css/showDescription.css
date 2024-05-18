@@ -1,0 +1,27 @@
+.showDetail > img{
+  margin-bottom: 2.5vh;
+  width: 100vw;
+}
+
+.showDetail{
+  height: 83vh;
+  overflow-y: scroll;
+}
+
+.whatsOnTheList{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.whatsOnTheList > div{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.whatsOnTheList > div > img{
+  height: 20vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}

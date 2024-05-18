@@ -1,0 +1,108 @@
+
+/*메인 레이아웃*/
+.main_layout{
+  max-width: 100vw;
+  max-height: 82vh;
+  overflow-y: scroll;
+  /*overflow-x: hidden;*/
+}
+
+/*목록 구분 글귀*/
+.distinguish_str{
+  font-family: "Apple SD Gothic Neo";
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 2vh;
+}
+
+/*생방송 콘텐츠 관련*/
+.liveShow_content_individual{
+  background-color: white;
+  font-family: "Apple SD Gothic Neo";
+  /*padding-top: 2vh;*/
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  /*height: 60vh;\*/
+  margin-bottom: 2vh;
+  border: 1.5px solid;
+  border-color: red;
+  padding: 5px;
+}
+
+.liveShow_contents img{
+  margin-bottom: 2vh;
+}
+
+.liveShow_content_individual > p{
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  border-top: solid #cccccc;
+}
+
+.liveShow_content_individual >img:nth-child(3){
+  margin-top: 2vh;
+}
+
+
+.liveShow_contents{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  /*margin-top: 5vh;*/
+  /*width: 80vw;*/
+}
+
+
+/*추천 목록*/
+.recommendation{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /*overflow-x: scroll;*/
+  /*width: 95vw;*/
+  /*margin-top: 5vh;*/
+  margin-bottom: 2.5vh;
+  border: 0.5px solid #888888;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.recommendation > img{
+  height: 10vh;
+  width: 10vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  margin-bottom: 0%;
+}
+
+/*링크 테이블*/
+#link_tables{
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: scroll;
+  width: 100vw;
+}
+
+#link_tables img{
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+
+/*아이템 데이블들*/
+.Product_table{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Product_table > img{
+  width: 40vw;
+  margin: 5vw;
+}
+
+
