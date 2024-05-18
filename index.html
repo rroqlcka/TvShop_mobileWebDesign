@@ -34,7 +34,7 @@
 
   <!-- Add your site or application content here -->
   <header class="header_set">
-    <img src="img/src/Container_img/Header.png" style="max-width: 100%; max-height: 15vh;">
+    <img src="img/src/Container_img/Header.png" onclick="task_fail_succeed(false)" style="max-width: 100%; max-height: 15vh;">
   </header>
 
   <div class="main_layout scroll" >
@@ -42,31 +42,31 @@
 
     <div class="liveShow_contents">
 
-      <div class="recommendation scroll" style="margin-top: 2vh">
+      <div onclick="task_fail_succeed(true)" class="recommendation" style="margin-top: 2vh">
         <img src="img/src/mainPage_img/Recommendation/recommended_vitamine.webp">
         <img src="img/src/mainPage_img/Recommendation/recommended_blueClothe.jpeg">
         <img src="img/src/mainPage_img/Recommendation/recommended_camera.jpeg">
       </div>
 
       <p class="distinguish_str">지금 방송 중인 상품</p>
-      <div class="liveShow_content_individual">
+      <div class="liveShow_content_individual" onclick="task_fail_succeed(true)">
         <img src="img/src/mainPage_img/TV+Shop_head.png">
         <img src="img/src/mainPage_img/LiveContents/LiveFirst_girl.png">
         <img src="img/src/mainPage_img/LiveContents/LiveFirst_girl_des.png">
 <!--        <p>3개 상품 더보기</p>-->
       </div>
-      <div class="liveShow_content_individual">
+      <div class="liveShow_content_individual" onclick="task_fail_succeed(true)">
         <img src="img/src/mainPage_img/TV+Shop_head.png">
         <img src="img/src/mainPage_img/LiveContents/LiveSecond_TV.png">
         <img src="img/src/mainPage_img/LiveContents/LiveFirst_girl_des.png">
 <!--        <p>3개 상품 더보기</p>-->
       </div>
-      <div class="liveShow_content_individual" style="border-color: blue">
+      <div class="liveShow_content_individual" onclick="task_fail_succeed(true)" style="border-color: blue">
         <img src="img/src/mainPage_img/LiveContents/ShowLive_head.png">
         <img src="img/src/mainPage_img/LiveContents/ShowLive_content.png">
       </div>
 
-      <div class="recommendation" class="scroll">
+      <div onclick="task_fail_succeed(true)" class="recommendation" class="scroll">
         <img src="img/src/mainPage_img/Recommendation/recommended_necklace.jpeg">
         <img src="img/src/mainPage_img/Recommendation/recommended_shoe.jpeg">
         <img src="img/src/mainPage_img/Recommendation/recommended_watch.jpeg">
@@ -75,17 +75,17 @@
 <!--      <p class="distinguish_str">카테고리 목록</p>-->
 
       <div id="link_tables" class="scroll">
-        <img id="Product_table_clothe_button" src="img/src/mainPage_img/Links/Link_outlet.png">
-        <img id="Product_table_beauty_button" src="img/src/mainPage_img/Links/Link_beauty.png">
-        <img id="Product_table_butique_button" src="img/src/mainPage_img/Links/Link_butique.png">
-        <img id="Product_table_eco_button" src="img/src/mainPage_img/Links/Link_eco.png">
-        <img id="Product_table_event_button" src="img/src/mainPage_img/Links/Link_event.png">
-        <img id="Product_table_food_button" src="img/src/mainPage_img/Links/Link_food.png">
-        <img id="Product_table_ranking_button" src="img/src/mainPage_img/Links/Link_ranking.png">
+        <img id="Product_table_clothe_button" src="img/src/mainPage_img/Links/Link_outlet.png" onclick="hide_show(1)">
+        <img id="Product_table_beauty_button" src="img/src/mainPage_img/Links/Link_beauty.png" onclick="hide_show(2)">
+        <img id="Product_table_butique_button" src="img/src/mainPage_img/Links/Link_butique.png" onclick="hide_show(3)">
+        <img id="Product_table_eco_button" src="img/src/mainPage_img/Links/Link_eco.png" onclick="hide_show(1)">
+        <img id="Product_table_event_button" src="img/src/mainPage_img/Links/Link_event.png" onclick="hide_show(2)">
+        <img id="Product_table_food_button" src="img/src/mainPage_img/Links/Link_food.png" onclick="hide_show(3)">
+        <img id="Product_table_ranking_button" src="img/src/mainPage_img/Links/Link_ranking.png" onclick="hide_show(1)">
       </div>
 
 
-      <div id="Product_table_clothes" class="Product_table">
+      <div id="Product_table_clothes" onclick="task_fail_succeed(true)" class="Product_table">
         <img src="img/src/mainPage_img/Items/ItemLink_clothe.png">
         <img src="img/src/mainPage_img/Items/ItemLink_clothe-1.png">
         <img src="img/src/mainPage_img/Items/ItemLink_clothe-2.png">
@@ -100,7 +100,7 @@
         <img src="img/src/mainPage_img/Items/ItemLink_clothe-3.png">
       </div>
 
-      <div id="Product_table_event" class="Product_table">
+      <div id="Product_table_event" onclick="task_fail_succeed(true)" class="Product_table">
         <img src="img/src/mainPage_img/Items/ItemLink_event.png">
         <img src="img/src/mainPage_img/Items/ItemLink_event-1.png">
         <img src="img/src/mainPage_img/Items/ItemLink_event-2.png">
@@ -115,7 +115,7 @@
         <img src="img/src/mainPage_img/Items/ItemLink_event-3.png">
       </div>
 
-      <div id="Product_table_butique" class="Product_table">
+      <div id="Product_table_butique" onclick="task_fail_succeed(true)" class="Product_table">
         <img src="img/src/mainPage_img/Items/ItemLink_butique.png">
         <img src="img/src/mainPage_img/Items/ItemLink_butique-1.png">
         <img src="img/src/mainPage_img/Items/ItemLink_butique-2.png">
@@ -130,7 +130,7 @@
         <img src="img/src/mainPage_img/Items/ItemLink_butique-3.png">
       </div>
 
-      <div class="recommendation" class="scroll">
+      <div onclick="task_fail_succeed(true)" class="recommendation" class="scroll">
         <img src="img/src/mainPage_img/Recommendation/recommended_shampoo.webp">
         <img src="img/src/mainPage_img/Recommendation/recommended_car.jpeg">
         <img src="img/src/mainPage_img/Recommendation/recommended_beauty.jpeg">
@@ -146,60 +146,35 @@
   <script src="js/app.js"></script>
   <script>
 
-    $('#Product_table_clothe_button').click(function(){
-      $('#Product_table_clothes').show();
-      $('#Product_table_event').hide();
-      $('#Product_table_butique').hide();
-      console.log('Pushed')
-    })
-
-    $('#Product_table_beauty_button').click(function(){
-      $('#Product_table_clothes').hide();
-      $('#Product_table_event').show();
-      $('#Product_table_butique').hide();
-      console.log('Pushed')
-    })
-
-    $('#Product_table_butique_button').click(function(){
-      $('#Product_table_clothes').hide();
-      $('#Product_table_event').hide();
-      $('#Product_table_butique').show();
-      console.log('Pushed')
-    })
-
-    $('#Product_table_eco_button').click(function(){
-      $('#Product_table_clothes').show();
-      $('#Product_table_event').hide();
-      $('#Product_table_butique').hide();
-      console.log('Pushed')
-    })
-
-    $('#Product_table_event_button').click(function(){
-      $('#Product_table_clothes').hide();
-      $('#Product_table_event').show();
-      $('#Product_table_butique').hide();
-      console.log('Pushed')
-    })
-
-    $('#Product_table_food_button').click(function(){
-      $('#Product_table_clothes').hide();
-      $('#Product_table_event').hide();
-      $('#Product_table_butique').show();
-      console.log('Pushed')
-    })
-
-    $('#Product_table_ranking_button').click(function(){
-      $('#Product_table_clothes').hide();
-      $('#Product_table_event').show();
-      $('#Product_table_butique').hide();
-      console.log('Pushed')
-    })
+    function hide_show(n){
+      switch(n){
+        case 1:
+          $('#Product_table_clothes').show();
+          $('#Product_table_event').hide();
+          $('#Product_table_butique').hide();
+          break;
+        case 2:
+          $('#Product_table_clothes').hide();
+          $('#Product_table_event').show();
+          $('#Product_table_butique').hide();
+          break;
+        case 3:
+          $('#Product_table_clothes').hide();
+          $('#Product_table_event').hide();
+          $('#Product_table_butique').show();
+          break;
+      }
+    }
 
 
+    function task_fail_succeed(yes_or_no){
+      if (yes_or_no){
+        window.location.href = 'taskSucceed.html';
+      } else {
+        window.location.href = 'taskFailed.html';
+      }
+    }
 
-    $('.header_set').click(function (){
-      window.location.href = 'taskFailed.html'
-    })
 
 
   </script>
