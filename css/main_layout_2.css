@@ -96,7 +96,7 @@
   flex-flow: row nowrap;
   overflow-x: scroll;
   width: 95vw;
-  /*margin-left: 5vw;*/
+  margin-left: 5vw;
 }
 
 #link_tables img{
