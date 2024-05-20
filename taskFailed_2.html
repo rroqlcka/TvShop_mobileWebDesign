@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>실패</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <div>
+    <p id="succeed">테스크 실패</p>
+    <p id="return">돌아가기 <u>클릭</u></p>
+  </div>
+</body>
+
+<style>
+
+  div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+  }
+
+  #succeed{
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Apple SD Gothic Neo";
+    margin: 0%;
+  }
+
+  #return{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 50px;
+    cursor: alias;
+  }
+
+  #return u{
+    color: #C56767;
+  }
+
+  body{
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+  }
+</style>
+
+<script>
+  $('#return').click(function (){
+    window.location.href = 'index2.html'
+  })
+</script>
+
+</html>
