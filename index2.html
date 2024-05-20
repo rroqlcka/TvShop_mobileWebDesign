@@ -42,19 +42,13 @@
 
     <div class="liveShow_contents">
 
-<!--      <div onclick="task_fail_succeed(true)" class="recommendation" style="margin-top: 2vh">-->
-<!--        <img src="img/src/mainPage_img/Recommendation/recommended_vitamine.webp">-->
-<!--        <img src="img/src/mainPage_img/Recommendation/recommended_blueClothe.jpeg">-->
-<!--        <img src="img/src/mainPage_img/Recommendation/recommended_camera.jpeg">-->
-<!--      </div>-->
-
       <p class="distinguish_str big_bold_font" style="margin-top: 1.5vh">라이브 쇼</p>
-      <p class="distinguish_str small_light_fon">지금 방송 중인 상품들이에요</p>
+      <p class="distinguish_str small_light_font">지금 방송 중인 상품들이에요</p>
       <div class="liveShow_content_individual" onclick="task_fail_succeed(true)">
         <img src="img/src/mainPage_img/TV+Shop_head.png">
         <img src="img/src/mainPage_img/LiveContents/LiveFirst_girl.png">
         <img src="img/src/mainPage_img/LiveContents/LiveFirst_girl_des.png">
-<!--        <p>3개 상품 더보기</p>-->
+
       </div>
       <div class="liveShow_content_individual" onclick="task_fail_succeed(true)">
         <img src="img/src/mainPage_img/TV+Shop_head.png">
@@ -67,84 +61,80 @@
         <img src="img/src/mainPage_img/LiveContents/ShowLive_content.png">
       </div>
 
-      <div onclick="task_fail_succeed(true)" class="recommendation" class="scroll">
-        <img src="img/src/mainPage_img/Recommendation/recommended_necklace.jpeg">
-        <img src="img/src/mainPage_img/Recommendation/recommended_shoe.jpeg">
-        <img src="img/src/mainPage_img/Recommendation/recommended_watch.jpeg">
-      </div>
 
       <p class="distinguish_str big_bold_font">고객님을 위한 할인 큐레이션</p>
       <p class="distinguish_str small_light_font">최근 본 상품 중 할인 순으로 정리해봤어요</p>
-      <div class="overflow_flex_row scroll">
+      <div class="overflow_flex_row scroll" onclick="task_fail_succeed(true)">
         <img src="img/src/mainPage_img/Discount/Most_discount_item_1.png">
         <img src="img/src/mainPage_img/Discount/Most_discount_item_2.png">
         <img src="img/src/mainPage_img/Discount/Most_discount_item_3.png">
         <img src="img/src/mainPage_img/Discount/Most_discount_item_4.png">
       </div>
 
+      <p class="distinguish_str big_bold_font">고객 추천 서비스</p>
+      <p class="distinguish_str small_light_font">전용 알고리즘을 통한 회원님 맞춤 서비스</p>
+      <div class="overflow_flex_row scroll" onclick="task_fail_succeed(true)">
+        <img src="img/src/mainPage_img/Recommendation/recommendation_item_1.png">
+        <img src="img/src/mainPage_img/Recommendation/recommendation_item_2.png">
+      </div>
+
       <p class="distinguish_str big_bold_font">카테고리 목록</p>
       <p class="distinguish_str small_light_font">모든 품목을 카테고리 별로 확인할 수 있어요</p>
 
       <div class="overflow_flex_row scroll" id="link_tables">
-        <img id="Product_table_clothe_button" src="img/src/mainPage_img/Links/Link_outlet.png" onclick="hide_show(1)">
-        <img id="Product_table_beauty_button" src="img/src/mainPage_img/Links/Link_beauty.png" onclick="hide_show(2)">
-        <img id="Product_table_butique_button" src="img/src/mainPage_img/Links/Link_butique.png" onclick="hide_show(3)">
-        <img id="Product_table_eco_button" src="img/src/mainPage_img/Links/Link_eco.png" onclick="hide_show(1)">
-        <img id="Product_table_event_button" src="img/src/mainPage_img/Links/Link_event.png" onclick="hide_show(2)">
-        <img id="Product_table_food_button" src="img/src/mainPage_img/Links/Link_food.png" onclick="hide_show(3)">
-        <img id="Product_table_ranking_button" src="img/src/mainPage_img/Links/Link_ranking.png" onclick="hide_show(1)">
+        <img id="Product_table_clothe_button" src="img/src/mainPage_img/Links/Link_outlet.png" onclick="hide_show('fassion')">
+        <img id="Product_table_beauty_button" src="img/src/mainPage_img/Links/Link_beauty.png" onclick="hide_show('beauty')">
+        <img id="Product_table_butique_button" src="img/src/mainPage_img/Links/Link_butique.png" onclick="hide_show('accessory')">
+        <img id="Product_table_eco_button" src="img/src/mainPage_img/Links/Link_eco.png" onclick="hide_show('home_appliance')">
+<!--        <img id="Product_table_event_button" src="img/src/mainPage_img/Links/Link_event.png" onclick="hide_show('home_')">-->
+        <img id="Product_table_food_button" src="img/src/mainPage_img/Links/Link_food.png" onclick="hide_show('food')">
+        <img id="Product_table_ranking_button" src="img/src/mainPage_img/Links/Link_ranking.png" onclick="hide_show('fassion')">
       </div>
 
 
-      <div id="Product_table_clothes" onclick="task_fail_succeed(true)" class="Product_table">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-3.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-3.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_clothe-3.png">
+      <div id="Product_table_fassion" onclick="task_fail_succeed(true)" class="Product_table">
+        <p class="distinguish_str big_bold_font link_str">아울렛</p>
+        <img src="img/src/mainPage_img/Items/fassion_items/fassion_item_1.png">
+        <img src="img/src/mainPage_img/Items/fassion_items/fassion_item_2.png">
+        <img src="img/src/mainPage_img/Items/fassion_items/fassion_item_3.png">
+        <img src="img/src/mainPage_img/Items/fassion_items/fassion_item_4.png">
+        <img src="img/src/mainPage_img/Items/fassion_items/fassion_item_5.png">
       </div>
 
-      <div id="Product_table_event" onclick="task_fail_succeed(true)" class="Product_table">
-        <img src="img/src/mainPage_img/Items/ItemLink_event.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-3.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-3.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_event-3.png">
+      <div id="Product_table_accessory" onclick="task_fail_succeed(true)" class="Product_table">
+        <p class="distinguish_str big_bold_font link_str">명품관</p>
+        <img src="img/src/mainPage_img/Items/accessory_items/accessory_item_1.png">
+        <img src="img/src/mainPage_img/Items/accessory_items/accessory_item_2.png">
+        <img src="img/src/mainPage_img/Items/accessory_items/accessory_item_3.png">
+        <img src="img/src/mainPage_img/Items/accessory_items/accessory_item_4.png">
+        <img src="img/src/mainPage_img/Items/accessory_items/accessory_item_5.png">
       </div>
 
-      <div id="Product_table_butique" onclick="task_fail_succeed(true)" class="Product_table">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-3.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-3.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-1.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-2.png">
-        <img src="img/src/mainPage_img/Items/ItemLink_butique-3.png">
+      <div id="Product_table_home_appliance" onclick="task_fail_succeed(true)" class="Product_table">
+        <p class="distinguish_str big_bold_font link_str">지구지키기</p>
+        <img src="img/src/mainPage_img/Items/home_appliances_items/home_appliance_item_1.png">
+        <img src="img/src/mainPage_img/Items/home_appliances_items/home_appliance_item_2.png">
+<!--        <img src="img/src/mainPage_img/Items/home_appliances_items/home_appliance_item_3.png">-->
+        <img src="img/src/mainPage_img/Items/home_appliances_items/home_appliance_item_4.png">
+        <img src="img/src/mainPage_img/Items/home_appliances_items/home_appliance_item_5.png">
       </div>
 
-      <div onclick="task_fail_succeed(true)" class="recommendation" class="scroll">
-        <img src="img/src/mainPage_img/Recommendation/recommended_shampoo.webp">
-        <img src="img/src/mainPage_img/Recommendation/recommended_car.jpeg">
-        <img src="img/src/mainPage_img/Recommendation/recommended_beauty.jpeg">
+      <div id="Product_table_beauty" onclick="task_fail_succeed(true)" class="Product_table">
+        <p class="distinguish_str big_bold_font link_str">뷰티관</p>
+        <img src="img/src/mainPage_img/Items/beauty_items/beauty_item_1.png">
+        <img src="img/src/mainPage_img/Items/beauty_items/beauty_item_2.png">
+        <img src="img/src/mainPage_img/Items/beauty_items/beauty_item_3.png">
+        <img src="img/src/mainPage_img/Items/beauty_items/beauty_item_4.png">
+        <img src="img/src/mainPage_img/Items/beauty_items/beauty_item_5.png">
+      </div>
+
+      <div id="Product_table_food" onclick="task_fail_succeed(true)" class="Product_table">
+        <p class="distinguish_str big_bold_font link_str">식품관</p>
+        <img src="img/src/mainPage_img/Items/food_items/food_item_1.png">
+        <img src="img/src/mainPage_img/Items/food_items/food_item_2.png">
+        <img src="img/src/mainPage_img/Items/food_items/food_item_3.png">
+        <img src="img/src/mainPage_img/Items/food_items/food_item_4.png">
+        <img src="img/src/mainPage_img/Items/food_items/food_item_5.png">
       </div>
 
       <img src="img/src/Container_img/Footer.png" style="margin-bottom: 0%">
@@ -159,20 +149,40 @@
 
     function hide_show(n){
       switch(n){
-        case 1:
-          $('#Product_table_clothes').show();
-          $('#Product_table_event').hide();
-          $('#Product_table_butique').hide();
+        case 'fassion':
+          $('#Product_table_fassion').show();
+          $('#Product_table_accessory').hide();
+          $('#Product_table_beauty').hide();
+          $('#Product_table_food').hide();
+          $('#Product_table_home_appliance').hide();
           break;
-        case 2:
-          $('#Product_table_clothes').hide();
-          $('#Product_table_event').show();
-          $('#Product_table_butique').hide();
+        case'accessory':
+          $('#Product_table_fassion').hide();
+          $('#Product_table_accessory').show();
+          $('#Product_table_beauty').hide();
+          $('#Product_table_food').hide();
+          $('#Product_table_home_appliance').hide();
           break;
-        case 3:
-          $('#Product_table_clothes').hide();
-          $('#Product_table_event').hide();
-          $('#Product_table_butique').show();
+        case 'beauty':
+          $('#Product_table_fassion').hide();
+          $('#Product_table_accessory').hide();
+          $('#Product_table_beauty').show();
+          $('#Product_table_food').hide();
+          $('#Product_table_home_appliance').hide();
+          break;
+        case 'food':
+          $('#Product_table_fassion').hide();
+          $('#Product_table_accessory').hide();
+          $('#Product_table_beauty').hide();
+          $('#Product_table_food').show();
+          $('#Product_table_home_appliance').hide();
+          break;
+        case 'home_appliance':
+          $('#Product_table_fassion').hide();
+          $('#Product_table_accessory').hide();
+          $('#Product_table_beauty').hide();
+          $('#Product_table_food').hide();
+          $('#Product_table_home_appliance').show();
           break;
       }
     }

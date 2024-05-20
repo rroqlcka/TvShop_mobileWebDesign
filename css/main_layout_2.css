@@ -12,6 +12,7 @@
   font-family: "Apple SD Gothic Neo";
   margin-top: 0px;
   width: 90vw;
+  /*color: #1c0000;*/
 }
 
 .big_bold_font{
@@ -96,7 +97,7 @@
   flex-flow: row nowrap;
   overflow-x: scroll;
   width: 95vw;
-  margin-left: 5vw;
+  padding-left: 5vw;
 }
 
 #link_tables img{
@@ -104,15 +105,24 @@
   margin-right: 2.5vw;
 }
 
+#link_tables{
+  padding-bottom: 0%;
+}
+
+.link_str{
+  font-size: 5vw;
+}
+
 
 /*아이템 데이블들*/
 .Product_table{
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .Product_table > img{
-  width: 40vw;
+  width: 90vw;
   margin: 5vw;
 }
 
